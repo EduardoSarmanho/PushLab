@@ -1,0 +1,17 @@
+# macOS
+.DS_Store
+
+# Secrets — never commit APNs keys or environment files
+*.p8
+.env
+.env.*
+!.env.example
+
+# Xcode
+xcuserdata/
+DerivedData/
+*.xcuserstate
+
+# Swift Package Manager
+.build/
+.swiftpm/
